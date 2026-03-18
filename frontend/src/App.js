@@ -27,10 +27,13 @@ function App() {
   const [chartData, setChartData] = useState(null);
 
   const fetchData = async () => {
-    const res = await axios.get("http://127.0.0.1:8000/wind-data", {
-      params: { start, end, horizon },
-    });
+    const res = await axios.get("https://wind-forecast-backend-32c2.onrender.com/wind-data",
+      {
+        params: { start, end, horizon },
+      },
+    );
 
+    // http://127.0.0.1:8000/wind-data
     const data = res.data;
 
     // const labels = data.map((d) => d.time);
