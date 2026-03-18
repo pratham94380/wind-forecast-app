@@ -27,7 +27,8 @@ function App() {
   const [chartData, setChartData] = useState(null);
 
   const fetchData = async () => {
-    const res = await axios.get("https://wind-forecast-backend-32c2.onrender.com/wind-data",
+    const res = await axios.get(
+      "https://wind-forecast-backend-32c2.onrender.com/wind-data",
       {
         params: { start, end, horizon },
       },
@@ -57,15 +58,15 @@ function App() {
         {
           label: "Actual Generation",
           data: actual,
-          borderColor: "#3b82f6", 
+          borderColor: "#3b82f6",
           borderWidth: 2,
-          // tension: 0.4, 
-          pointRadius: 0, 
+          // tension: 0.4,
+          pointRadius: 0,
         },
         {
           label: "Forecast Generation",
           data: forecast,
-          borderColor: "#1abc86", 
+          borderColor: "#1abc86",
           borderWidth: 2,
           // tension: 0.4,
           pointRadius: 0,
@@ -79,12 +80,12 @@ function App() {
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
-      legend: { display: false }, 
+      legend: { display: false },
       tooltip: { mode: "index", intersect: false },
     },
     scales: {
       x: {
-        grid: { color: "#f3f4f6", drawBorder: false }, 
+        grid: { color: "#f3f4f6", drawBorder: false },
         title: {
           display: true,
           text: "Target Time End (UTC)",
@@ -110,7 +111,6 @@ function App() {
       },
     },
   };
-
 
   return (
     <div
