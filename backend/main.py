@@ -24,10 +24,13 @@ def get_wind_data(start: str, end: str, horizon: int):
     selected = select_forecast(actual, forecast, horizon)
 
     merged = actual.merge(selected, on="time", how="left")
+    merged['time'] = pd.to_datetime(merged['time'])
+    merged = merged[merged['time'] >= '2025-01-01']
     merged = merged.replace({np.nan: None})
-
     merged = merged.sort_values(by="time", ascending=True)
-    
+
     merged['time'] = merged['time'].astype(str)
     
     return merged.to_dict(orient="records")
+
+
