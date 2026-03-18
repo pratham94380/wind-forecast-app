@@ -56,7 +56,7 @@ The repository is organized into three main sections:
 
 
 ### 🔗 Important Links
-Live Application (Frontend): [(https://wind-forecast-5s3zr0xw9-pratham94380s-projects.vercel.app/)]
+Live Application (Frontend): [(https://wind-forecast-app-sigma.vercel.app/)]
 
 Live Backend API: [(https://wind-forecast-backend-32c2.onrender.com)]
 
