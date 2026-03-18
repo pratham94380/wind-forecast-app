@@ -58,7 +58,7 @@ The repository is organized into three main sections:
 ### 🔗 Important Links
 Live Application (Frontend): [Insert your Vercel/Netlify link here]
 
-Live Backend API: [Insert your Render/Heroku link here]
+Live Backend API: [(https://wind-forecast-backend-32c2.onrender.com)]
 
 Demo & Analysis Video: [Insert your Unlisted YouTube Video Link here]
 
