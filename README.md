@@ -19,18 +19,18 @@ The repository is organized into three main sections:
 
 2. Create and activate a virtual environment (optional but recommended):
 
-    Bash
+     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     
 3.  Install the required dependencies:
 
-    Bash
+     ```bash
     pip install fastapi uvicorn pandas numpy requests
     
 4.  Start the development server:
 
-    Bash
+    ```bash
     uvicorn main:app --reload
     The backend will run on http://127.0.0.1:8000
 
@@ -38,17 +38,17 @@ The repository is organized into three main sections:
 
 1. Open a new terminal and navigate to the frontend directory:
 
-    Bash
+     ```bash
     cd frontend
 
 2.  Install the required Node modules:
 
-    Bash
+    ```bash
     npm install
 
 3.  Start the React development server:
 
-    Bash
+     ```bash
     npm start
 
 4.  The frontend will run on http://localhost:3000
