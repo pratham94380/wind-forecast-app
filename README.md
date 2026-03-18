@@ -60,7 +60,7 @@ Live Application (Frontend): [(https://wind-forecast-app-sigma.vercel.app/)]
 
 Live Backend API: [(https://wind-forecast-backend-32c2.onrender.com)]
 
-Demo & Analysis Video: [Insert your Unlisted YouTube Video Link here]
+Demo & Analysis Video: [(https://youtu.be/6VKA-zeY0AU)]
 
 ### AI Tools Usage Disclaimer
 As permitted by the challenge guidelines, AI tools (Google Gemini) were utilized for low-level assistance during development. Specifically, AI was used to help debug strict JSON compliance issues with Pandas NaN values, troubleshoot BMRS API parameter syntax (publishDateTimeFrom), and resolve Chart.js configuration for plotting non-continuous lines (spanGaps). All architectural decisions, analytical reasoning, and data interpretations were derived independently.
